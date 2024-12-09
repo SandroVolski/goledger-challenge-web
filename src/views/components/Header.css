@@ -1,0 +1,89 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000; /* fundo preto */
+    padding: 0 20px;
+    height: 60px;
+    color: #fff;
+    font-family: sans-serif;
+  }
+  
+  /* Área esquerda: logo e botão home */
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-logo {
+    height: 40px; /* ajuste conforme necessário */
+    margin-right: 20px;
+  }
+  
+  .icon-button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 18px;
+  }
+  
+  /* Área central: barra de busca */
+  .header-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #222;
+    border-radius: 20px;
+    padding: 0 10px;
+    width: 400px; /* ajuste conforme necessário */
+  }
+  
+  .search-bar input {
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    width: 100%;
+    margin: 0 10px;
+  }
+  
+  .search-icon, .clear-icon {
+    font-size: 16px;
+    margin: 0 5px;
+  }
+  
+  /* Área direita: links Inscrever-se e Entrar */
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-link {
+    color: #ccc;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 14px;
+    transition: color 0.2s;
+  }
+  
+  .header-link:hover {
+    color: #fff;
+  }
+  
+  .header-button {
+    background: #fff;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
